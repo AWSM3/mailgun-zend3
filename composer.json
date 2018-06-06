@@ -1,0 +1,28 @@
+{
+  "name": "awsm3/mailgun-zend3",
+  "type": "library",
+  "description": "A PHP client library for Mailgun's REST API for Zend Framework 3",
+  "keywords": ["Mailgun","zf3","zend framework 3", "zend framework"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AWSM3",
+      "homepage": "https://github.com/AWSM3"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/psr7": "^1.4",
+    "mailgun/mailgun-php": "^2.5",
+    "php-http/curl-client": "^1.7",
+    "zendframework/zend-mail": "~2.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZendMailgun\\": "src/"
+    }
+  }
+}
