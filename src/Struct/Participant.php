@@ -15,7 +15,7 @@ class Participant extends AbstractStruct
 {
     /** @var string the participant's email address */
     protected $email;
-    /** @var string the participant's name */
+    /** @var null|string the participant's name */
     protected $name;
 
     /**
@@ -49,9 +49,9 @@ class Participant extends AbstractStruct
     }
 
     /**
-     * @return string
+     * @return null|string
      */
-    public function getName(): string
+    public function getName(): ?string
     {
         return $this->name;
     }
