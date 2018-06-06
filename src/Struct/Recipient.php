@@ -19,7 +19,7 @@ class Recipient extends Participant
         RECIPIENT_TYPE_BCC = 'bcc';
 
     /** @var string the recipient's header type i.e. 'to', 'cc', 'bcc' */
-    private $type = self::RECIPIENT_TYPE_TO;
+    protected $type = self::RECIPIENT_TYPE_TO;
 
     /**
      * @inheritdoc

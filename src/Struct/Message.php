@@ -18,19 +18,19 @@ use Zend\Mail\Message as ZendMessage;
 class Message extends AbstractStruct
 {
     /** @var string */
-    private $from;
+    protected $from;
     /** @var string */
-    private $to;
+    protected $to;
     /** @var string */
-    private $cc;
+    protected $cc;
     /** @var string */
-    private $bcc;
+    protected $bcc;
     /** @var string */
-    private $subject;
+    protected $subject;
     /** @var string */
-    private $text;
+    protected $text;
     /** @var string */
-    private $html;
+    protected $html;
 
     /**
      * @param ZendMessage $zfMessage

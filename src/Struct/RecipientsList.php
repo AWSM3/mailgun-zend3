@@ -14,7 +14,7 @@ namespace ZendMailgun\Struct;
 class RecipientsList extends AbstractStruct
 {
     /** @var array */
-    private $recipients = [];
+    protected $recipients = [];
 
     /**
      * RecipientsList constructor.
